@@ -1,0 +1,17 @@
+<?php
+// $Id$
+
+/**
+ * @file
+ *   Views sloppy time cache.
+ */
+
+/**
+ * Implementation of hook_views_api().
+ */
+function sloppy_time_views_api() {
+  return array(
+    'api' => 2,
+    'path' => drupal_get_path('module', 'sloppy_time') .'/views',
+  );
+}

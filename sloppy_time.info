@@ -1,0 +1,6 @@
+; $Id$
+name = Sloppy time cache
+description = Provides a views cache plugin with sloppy time-based expiration.
+package = Views
+core = 6.x
+dependencies[] = views
